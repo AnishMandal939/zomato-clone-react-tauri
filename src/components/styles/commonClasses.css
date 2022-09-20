@@ -1,0 +1,28 @@
+.max-width{
+    max-width: 1000px;
+    margin: 0px auto;
+    /* background-color: red; */
+  /* outline: 5px solid rgb(206, 13, 13); */
+
+}
+
+.absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cur-po{cursor: pointer;}
+
+/* collection */
+.collection-title{
+  font-size: 30px;
+  color: var(--heading-text);
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+.slick-next:before,
+.slick-prev:before{
+  color: var(--gray);
+}
