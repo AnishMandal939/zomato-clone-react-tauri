@@ -49,7 +49,7 @@ const Delivery:React.FC<IProps> = () => {
       <div className="max-width">
       <Filters filterList={deliveryFilters} />
       </div>
-      {/* delivery collections card 1:45:40 */}
+      {/* delivery collections card  */}
       <DeliveryCollections /> 
       <TopBrands />
       <ExploreSection list={restaurantList} collectionName='Delivery Restaurants in Lucknow'/>
